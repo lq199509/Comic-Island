@@ -1,6 +1,7 @@
 <template>
     <div>
       <banner :banners='bannerList'></banner>
+      
     </div>
 </template>
 <script>

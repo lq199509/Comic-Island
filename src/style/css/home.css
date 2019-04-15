@@ -1,0 +1,281 @@
+.font-36 {
+	font-size: .48rem;
+}
+
+.font-28 {
+	font-size: .37333333rem;
+}
+
+.font-24 {
+	font-size: .32rem;
+}
+
+.font-30 {
+	font-size: .4rem;
+}
+
+body {
+	padding-top: 1.17333333rem !important;
+}
+
+body,
+html {
+	min-height: 100%;
+	overflow-x: hidden;
+	-webkit-font-smoothing: antialiased;
+}
+
+fieldset,
+img {
+	border: 0;
+}
+
+.index-recommend {
+	width: 10rem;
+	margin: 0 auto;
+}
+
+.index-recommend .recommend-divide {
+	width: 10rem;
+	height: .26666667rem;
+	background-color: #f4f4f4;
+}
+
+.index-recommend .recommend-title,
+.index-recommend .recommend-title .title-group {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.index-recommend .recommend-title {
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	margin: .61333333rem 0 .50666667rem;
+	position: relative;
+}
+
+.index-recommend .recommend-title .title-group .title-icon {
+	width: .58666667rem;
+	height: .58666667rem;
+	margin: 0 .13333333rem 0 0;
+}
+
+.index-recommend .recommend-title .title-group .title-text {
+	color: #3a3a3a;
+	font-weight: 500;
+}
+
+.index-recommend .recommend-title .title-more {
+	color: #b0b0b0;
+	position: absolute;
+	top: .13333333rem;
+	right: .48rem;
+}
+
+.index-recommend .recommend-type-1 {
+	box-sizing: border-box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-align-content: center;
+	align-content: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	padding: 0 .26666667rem;
+}
+
+.index-recommend .recommend-type-1 .item {
+	width: 4.61333333rem;
+	margin: 0 0 .48rem;
+}
+
+.index-recommend .recommend-type-1 .item .item-pic {
+	width: 4.61333333rem;
+	height: 4.61333333rem;
+	margin: 0 0 .13333333rem;
+	position: relative;
+}
+
+.index-recommend .recommend-type-1 .item .item-name {
+	max-width: 100%;
+	margin: 0 0 .08rem;
+	color: #3a3a3a;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.index-recommend .recommend-type-1 .item .item-text {
+	max-width: 100%;
+	color: #8d8d8d;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.index-recommend .recommend-type-2 {
+	box-sizing: border-box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-align-content: center;
+	align-content: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	padding: 0 .29333333rem;
+}
+
+.index-recommend .recommend-type-2 div :first-child{
+	width: 100%!important;
+	margin: 0 0 .48rem!important;
+}
+.index-recommend .recommend-type-2 .item img:first-child{
+    width: 9.46666667rem!important;
+    height: 4.8rem!important;
+    margin: 0 0 .13333333rem!important;
+}
+.index-recommend .recommend-type-2 .item .item-pic {
+	width: 2.96rem;
+	height: 3.94666667rem;
+	margin: 0 0 .13333333rem;
+}
+
+.index-recommend .recommend-type-2 .item {
+	width: 2.96rem;
+	margin: 0 0 .58666667rem;
+}
+
+.index-recommend .recommend-type-2 .item-fist .fist-pic {
+	width: 9.46666667rem;
+	height: 4.8rem;
+	margin: 0 0 .13333333rem;
+}
+
+.index-recommend .recommend-type-2 .item .item-text {
+	max-width: 100%;
+	color: #8d8d8d;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.index-recommend .recommend-type-5 {
+	box-sizing: border-box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-align-content: center;
+	align-content: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	padding: 0 .29333333rem;
+}
+
+.index-recommend .recommend-type-5 .item {
+	width: 2.96rem;
+	margin: 0 0 .42666667rem;
+}
+
+.index-recommend .recommend-type-5 .item .item-pic {
+	width: 2.96rem;
+	height: 3.94666667rem;
+	margin: 0 0 .13333333rem;
+}
+
+.index-recommend .recommend-type-5 .item .item-title {
+	max-width: 100%;
+	margin: 0 0 .10666667rem;
+	color: #3a3a3a;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.index-recommend .recommend-type-5 .item .item-text {
+	max-width: 100%;
+	color: #8d8d8d;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.index-recommend .recommend-type-3 {
+	box-sizing: border-box;
+	padding: 0 .26666667rem;
+}
+
+.index-recommend .recommend-type-3 .item {
+	box-sizing: border-box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	width: 100%;
+	margin: 0 0 .48rem;
+	position: relative;
+}
+
+.index-recommend .recommend-type-3 .item .item-pic {
+	width: 4.08rem;
+	height: 2.4rem;
+}
+
+.index-recommend .recommend-type-3 .item .ranking-group .item-ranking-1 {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAABFFBMV…bixQUUZhQTYpFAeUpJdi15dSFR80Y0OiEoGjWuQzDuz/0A5JbsQ93u96QAAAAASUVORK5CYII=);
+}
+
+.index-recommend .recommend-type-3 .item .ranking-group .item-ranking {
+	width: .66666667rem;
+	height: .66666667rem;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: contain;
+	position: absolute;
+	top: .09333333rem;
+	left: 4.50666667rem;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAABFFBMV…bixQUUZhQTYpFAeUpJdi15dSFR80Y0OiEoGjWuQzDuz/0A5JbsQ93u96QAAAAASUVORK5CYII=);
+}
+
+.index-recommend .recommend-type-3 .item .text-group {
+	width: 4.21333333rem;
+	margin: 0 0 0 1.14666667rem;
+}
+
+.index-recommend .recommend-type-3 .item .text-group .item-name {
+	margin: 0 0 .16rem;
+	color: #3a3a3a;
+	font-weight: 500;
+}
+
+.index-recommend .recommend-type-3 .item .text-group .item-hot {
+	color: #b0b0b0;
+	margin: 0 0 .4rem;
+}
+
+.index-recommend .recommend-type-3 .item .text-group .item-hot .hot-hot {
+	color: red;
+}
+
+.index-recommend .recommend-type-3 .item .text-group .item-text {
+	max-width: 100%;
+	color: #8d8d8d;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}

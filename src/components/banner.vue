@@ -29,8 +29,8 @@ export default {
     if (!this.swiper) {
       this.swiper = new Swiper('.swiper-container', {
         loop: true, // 无缝轮播
-        autoplay: 1000,
-        initialSlide: 0,
+        autoplay: true,
+        initialSlide: 3,
         autoplayDisableOnInteraction: false,
         pagination: {
           el: '.swiper-pagination'
