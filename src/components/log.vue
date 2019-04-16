@@ -1,10 +1,10 @@
 <template>
   <header class="index-header">
-    <a href="#">
+    <router-link to="/login">
       <div class="header-user">
         <div class="user-btn"></div>
       </div>
-    </a>
+    </router-link>
     <div class="header-logo"></div>
     <a href="#">
       <div class="header-search"></div>
