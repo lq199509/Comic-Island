@@ -14,9 +14,9 @@
 	font-size: .4rem;
 }
 
-body {
+/* body {
 	padding-top: 1.17333333rem !important;
-}
+} */
 
 body,
 html {
@@ -136,11 +136,11 @@ img {
 	padding: 0 .29333333rem;
 }
 
-.index-recommend .recommend-type-2 div :first-child{
+.index-recommend .recommend-type-2 :first-child{
 	width: 100%!important;
 	margin: 0 0 .48rem!important;
 }
-.index-recommend .recommend-type-2 .item img:first-child{
+.index-recommend .recommend-type-2 :first-child img{
     width: 9.46666667rem!important;
     height: 4.8rem!important;
     margin: 0 0 .13333333rem!important;
@@ -236,10 +236,21 @@ img {
 	height: 2.4rem;
 }
 
-.index-recommend .recommend-type-3 .item .ranking-group .item-ranking-1 {
-	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAABFFBMV…bixQUUZhQTYpFAeUpJdi15dSFR80Y0OiEoGjWuQzDuz/0A5JbsQ93u96QAAAAASUVORK5CYII=);
+.index-recommend .recommend-type-3 .item .ranking-group .item-ranking-0 {
+	background-image: url(../../img/one.png)
 }
-
+.index-recommend .recommend-type-3 .item .ranking-group .item-ranking-1 {
+	background-image: url(../../img/two.png)
+}
+.index-recommend .recommend-type-3 .item .ranking-group .item-ranking-2 {
+	background-image: url(../../img/three.png)
+}
+.index-recommend .recommend-type-3 .item .ranking-group .item-ranking-3 {
+	background-image: url(../../img/four.png)
+}
+.index-recommend .recommend-type-3 .item .ranking-group .item-ranking-4 {
+	background-image: url(../../img/five.png)
+}
 .index-recommend .recommend-type-3 .item .ranking-group .item-ranking {
 	width: .66666667rem;
 	height: .66666667rem;
@@ -249,7 +260,6 @@ img {
 	position: absolute;
 	top: .09333333rem;
 	left: 4.50666667rem;
-	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAABFFBMV…bixQUUZhQTYpFAeUpJdi15dSFR80Y0OiEoGjWuQzDuz/0A5JbsQ93u96QAAAAASUVORK5CYII=);
 }
 
 .index-recommend .recommend-type-3 .item .text-group {
