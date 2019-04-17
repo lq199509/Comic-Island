@@ -29,7 +29,7 @@
   margin: auto;
   padding: 0 0.4rem;
   background-color: #fff;
-  position: fixed;
+  position: fixed !important;
   z-index: 999;
   top: 0;
   left: 0;

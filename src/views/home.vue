@@ -55,7 +55,7 @@ export default {
 }
 </script>
 
-<style>
+<style scope>
 .swiper-container .swiper-wrapper .swiper-slide {
   height: 4.8rem;
   margin: 0 auto;

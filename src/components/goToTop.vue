@@ -18,7 +18,7 @@ export default {
     onScoll () {
       // 返回顶部的显示及隐藏
       let scrollTop = document.documentElement.scrollTop
-      if (scrollTop >= 210) {
+      if (scrollTop >= 250) {
         this.hideOrShow = true
       } else {
         this.hideOrShow = false

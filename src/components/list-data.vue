@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="index-recommend" v-for="item in fistMsg" :key="item.icon">
+    <section class="index-recommend" v-for="item in fistMsg" :key="item.specialid">
       <div class="recommend-divide"></div>
       <div class="recommend-title">
         <div class="title-group">
@@ -18,7 +18,7 @@
       </div>
     </section>
 
-    <section class="index-recommend" v-for="ms in lastMsg" :key="ms.icon">
+    <section class="index-recommend" v-for="(ms, index) in lastMsg" :key="index">
       <div class="recommend-divide"></div>
       <div class="recommend-title">
         <div class="title-group">
@@ -29,10 +29,10 @@
       </div>
 
       <div :class="'recommend-type-'+ ms.comicsviewtype">
-        <div class="item" v-for="single in ms.comicslist" :key="single.bookstore_id">
+        <div class="item" v-for="(single, index) in ms.comicslist" :key="index">
           <img class="item-pic" :src="getUrl(single.extension)">
           <div class="ranking-group">
-            <div class="item-ranking" :class="'item-ranking-'+getIndex(single,ms.comicslist)"></div>
+            <div class="item-ranking" :class="'item-ranking-'+index"></div>
           </div>
           <div class="text-group">
             <p class="item-name font-30">{{ single.bigbook_name }}</p>
@@ -69,13 +69,6 @@ export default {
     }
   },
   methods: {
-    getIndex (x, arr) {
-      for (var i = 0; i < arr.length; i++) {
-        if (arr[i] === x) {
-          return i
-        }
-      }
-    },
     getHot (num) {
       var x = Number(num)
       if (x > 100000000) {
