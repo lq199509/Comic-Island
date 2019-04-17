@@ -43,6 +43,7 @@ export default {
 .swiper-container {
   height: 4.8rem;
   width: 10rem;
+  padding-top: 1.2rem !important;
 
   img {
     width: 100%;
