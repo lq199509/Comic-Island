@@ -1,0 +1,350 @@
+[
+    [
+        {
+            "id": 100,
+            "name": "斗罗大陆",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/168407/168407_749f2be713ea464193b3b4d8e314e00a.jpg",
+            "bigbook_author": "风穆逢炫动漫 春",
+            "Popularity": "21.47亿"
+        },
+        {
+            "id": 101,
+            "name": "偷星九月天",
+            "img": "https://mhdgu.1391.com/bookcenter/coverimages/168458/168458_51b101f968b547b29eba9e470147a345.jpg",
+            "bigbook_author": "周洪滨",
+            "Popularity": "21.07亿"
+        },
+        {
+            "id": 102,
+            "name": "妖神记",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/181576/181576_db9f64dc8f2e4080a202f46f986cdbad.jpg",
+            "bigbook_author": "踏雪动漫",
+            "Popularity": "21.46亿"
+        },
+        {
+            "id": 103,
+            "name": "都市极品仙医",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/179178/179178_fdfdc354365742d6a2e02e904803ea26.jpg",
+            "bigbook_author": "肖焌瑜",
+            "Popularity": "16.38亿"
+        },
+        {
+            "id": 104,
+            "name": "盘龙",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/173515/173515_fc4438f59a784dbd87c2aa019b37def5.jpg",
+            "bigbook_author": "童亦名，漫友",
+            "Popularity": "16.08亿"
+        },
+        {
+            "id": 105,
+            "name": "莽荒纪",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/167563/167563_0e286b8d990c4b9184898acdc2da4937.jpg",
+            "bigbook_author": "莫问",
+            "Popularity": "14.65亿"
+        },
+        {
+            "id": 106,
+            "name": "桃花宝典",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/181525/181525_204005121c6449f4a2cf62645f6924e7.jpg",
+            "bigbook_author": "有鹿文化，河取",
+            "Popularity": "13.13亿"
+        },
+        {
+            "id": 107,
+            "name": "星武神诀",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/181575/181575_0bcf5f0c83dc44838772cc811570398c.jpg",
+            "bigbook_author": "踏雪动漫",
+            "Popularity": "12.08亿"
+        }
+    ],
+    [
+        {
+            "id": 200,
+            "name": "纯情花嫁",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/177656/177656_69fb205acc874dc79c228c66ecd804f9.jpg",
+            "bigbook_author": "三福动漫",
+            "Popularity": "21.07亿"
+        },
+        {
+            "id": 201,
+            "name": "王牌校草",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/177601/177601_1d1e9d07cca94586857f968bf38c0643.jpg",
+            "bigbook_author": "有鹿文化,一只柚子",
+            "Popularity": "21.07亿"
+        },
+        {
+            "id": 202,
+            "name": "拂晓的花嫁",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/176845/176845_bfe8ba64de37491994499a06d447d2cc.jpg",
+            "bigbook_author": "Morel",
+            "Popularity": "21.47亿"
+        },
+        {
+            "id": 203,
+            "name": "何故为卿狂",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/178050/178050_049bcc90089d489fa1ffe54cd02c6501.jpg",
+            "bigbook_author": "汁汁",
+            "Popularity": "21.47亿"
+        },
+        {
+            "id": 204,
+            "name": "偷星九月天",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/168458/168458_51b101f968b547b29eba9e470147a345.jpg",
+            "bigbook_author": "周洪滨",
+            "Popularity": "21.07亿"
+        },
+        {
+            "id": 205,
+            "name": "天狐劫",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/177025/177025_a2630c2dfc0a4cb09c28a9fcbaaf3d09.jpg",
+            "bigbook_author": "泷羽",
+            "Popularity": "21.07亿"
+        },
+        {
+            "id": 206,
+            "name": "豪门第一盛婚",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/177600/177600_de43d9a4e817454e992f51d619a314e3.jpg",
+            "bigbook_author": "有鹿文化,瓶子",
+            "Popularity": "21.07亿"
+        },
+        {
+            "id": 207,
+            "name": "王爷你好贱",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/177124/177124_20db9e7f597c45d382bb64c508c08a51.jpg",
+            "bigbook_author": "追梦动漫",
+            "Popularity": "21.07亿"
+        }
+    ],
+    [
+        {
+            "id": 300,
+            "name": "鱼唇的人类放朕走",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/177079/177079_b0e4ae0b4a1b4706a9f150c2da6110b5.jpg",
+            "bigbook_author": "千秋叶工作室",
+            "Popularity": "19.32亿"
+        },
+        {
+            "id": 301,
+            "name": "阿衰online",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/245668/2185190_02b51397c05d48b1baefd51fcaaa6023.jpg",
+            "bigbook_author": "漫画派对",
+            "Popularity": "17.72亿"
+        },
+        {
+            "id": 302,
+            "name": "生肖萌战记",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/177029/177029_806654d6d58343e58aa274e27d450fd1.jpg",
+            "bigbook_author": "阿小濑",
+            "Popularity": "12.20亿"
+        },
+        {
+            "id": 303,
+            "name": "变成男神怎么办",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/180426/180426_2a265a7934084ede8618909cc11b44d4.jpg",
+            "bigbook_author": "岚·翼动漫工作室",
+            "Popularity": "12.14亿"
+        },
+        {
+            "id": 304,
+            "name": "中华神医",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/185218/185218_4175a279ba484b56a7fe814cad58d5ec.jpg",
+            "bigbook_author": "极光动漫",
+            "Popularity": "10.77亿"
+        },
+        {
+            "id": 305,
+            "name": "公交男女",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/148673/148673_8ba31d5c12cc4c769a6ba2aec7ea25cb.jpg",
+            "bigbook_author": "公交男女",
+            "Popularity": "10.37亿"
+        },
+        {
+            "id": 306,
+            "name": "我的丁丁不可能这样没了",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/209531/2021717_02eb76b0fbe54c9bbef98945dd05392c.jpg",
+            "bigbook_author": "元气工场",
+            "Popularity": "9.79亿"
+        },
+        {
+            "id": 307,
+            "name": "爆笑校园",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/173734/173734_c6d2e07448574d86801f1ad97b39aa24.jpg",
+            "bigbook_author": "朱斌，漫友",
+            "Popularity": "8.15亿"
+        }
+    ],
+    [
+        {
+            "id": 400,
+            "name": "偷星九月天",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/168458/168458_51b101f968b547b29eba9e470147a345.jpg",
+            "bigbook_author": "周洪滨",
+            "Popularity": "21.07亿"
+        },
+        {
+            "id": 401,
+            "name": "都市极品仙医",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/179178/179178_fdfdc354365742d6a2e02e904803ea26.jpg",
+            "bigbook_author": "肖焌瑜",
+            "Popularity": "16.40亿"
+        },
+        {
+            "id": 402,
+            "name": "盘龙",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/173515/173515_fc4438f59a784dbd87c2aa019b37def5.jpg",
+            "bigbook_author": "童亦名，漫友",
+            "Popularity": "16.08亿"
+        },
+        {
+            "id": 403,
+            "name": "变成男神怎么办",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/180667/180667_0f7887e0135f458bbd6f69f6b52d2540.jpg",
+            "bigbook_author": "岚·翼动漫工作室",
+            "Popularity": "12.14亿"
+        },
+        {
+            "id": 404,
+            "name": "劫天运",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/185218/185218_4175a279ba484b56a7fe814cad58d5ec.jpg",
+            "bigbook_author": "肥鱼工作室",
+            "Popularity": "9.51亿"
+        },
+        {
+            "id": 405,
+            "name": "大荒咒",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/177398/177398_1080bf31750c46fa84606b5b7755dac7.jpg",
+            "bigbook_author": "漫悠悠-玉玺子",
+            "Popularity": "9.29亿"
+        },
+        {
+            "id": 406,
+            "name": "浪漫传说",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/245720/2185522_201c4c0087d544a7859fed957973e474.jpg",
+            "bigbook_author": "知音漫客,HEHE",
+            "Popularity": "7.84亿"
+        },
+        {
+            "id": 407,
+            "name": "全职法师",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/247057/2225868_d6fb403eff2e407bbf1a2d43b7c85438.png",
+            "bigbook_author": "阅文漫画",
+            "Popularity": "7.69亿"
+        }
+    ],
+    [
+        {
+            "id": 500,
+            "name": "剃头匠",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/177507/177507_64ab234dd89342fdbdb591aeee63bec4.jpg",
+            "bigbook_author": "云栖动漫",
+            "Popularity": "21.47亿"
+        },
+        {
+            "id": 501,
+            "name": "鬼抬轿",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/173712/173712_5b01051a648b40a89293a020330349b5.jpg",
+            "bigbook_author": "TIK",
+            "Popularity": "17.87亿"
+        },
+        {
+            "id": 502,
+            "name": "劫天运",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/180667/180667_0f7887e0135f458bbd6f69f6b52d2540.jpg",
+            "bigbook_author": "肥鱼工作室",
+            "Popularity": "9.51亿"
+        },
+        {
+            "id": 503,
+            "name": "阴阳代理人",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/177618/177618_dd235fa3650f4a0bbe6a161b96cf0603.jpg",
+            "bigbook_author": "夏天岛-十一幻想",
+            "Popularity": "6.96亿"
+        },
+        {
+            "id": 504,
+            "name": "无限恐怖",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/167573/167573_efedce2e9ce34d6fb45adf5202bf4603.jpg",
+            "bigbook_author": "像素工坊，魅丽",
+            "Popularity": "6.72亿"
+        },
+        {
+            "id": 505,
+            "name": "形形色色",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/173713/173713_a907a639e14841e4b27b077fdf7ba588.jpg",
+            "bigbook_author": "晓杰的羊",
+            "Popularity": "6.12亿"
+        },
+        {
+            "id": 506,
+            "name": "日常见诡事件簿",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/176428/176428_183ce8fb682841e08f15b653c1d2314c.jpg",
+            "bigbook_author": "理池&amp;九坑",
+            "Popularity": "5.37亿"
+        },
+        {
+            "id": 507,
+            "name": "圣王",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/167559/167559_7e3114619ab144229b1988280bd8336b.jpg",
+            "bigbook_author": "大包包",
+            "Popularity": "4.64亿"
+        }
+    ],
+    [
+        {
+            "id": 600,
+            "name": "阿衰online",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/245668/2185190_02b51397c05d48b1baefd51fcaaa6023.jpg",
+            "bigbook_author": "漫画派对",
+            "Popularity": "21.47亿"
+        },
+        {
+            "id": 601,
+            "name": "见习魔法师",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/186320/186320_b6b1740ca4bb4570823e1c8e28ae2f4b.jpg",
+            "bigbook_author": "奎子@@中国卡通",
+            "Popularity": "1.93亿"
+        },
+        {
+            "id": 602,
+            "name": "同桌的烦恼",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/247524/2263364_d0fefe02aa84435da9423b0b382aebcb.jpg",
+            "bigbook_author": "正东动漫",
+            "Popularity": "7040.20万"
+        },
+        {
+            "id": 603,
+            "name": "阿狸Ali",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/173443/3ec5a3ffe55544559e52370e62b2ee34.jpg",
+            "bigbook_author": "Hans,漫漫",
+            "Popularity": "3888.31万"
+        },
+        {
+            "id": 604,
+            "name": "怕丢日记",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/174775/864c9e1913f24e5f84b41e8e2f73e862.jpg",
+            "bigbook_author": "新漫画",
+            "Popularity": "3751.92万"
+        },
+        {
+            "id": 605,
+            "name": "精灵契约",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/194295/2621ca9e4a2c40c698da7678db5c12ab.jpg",
+            "bigbook_author": "星漫文化",
+            "Popularity": "3324.34万"
+        },
+        {
+            "id": 606,
+            "name": "无头阿宝",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/246846/2209381_58c9e3e6d6bd4c2dbe0f53b75e82fbcf.jpg",
+            "bigbook_author": "E画社",
+            "Popularity": "2147.89万"
+        },
+        {
+            "id": 607,
+            "name": "校园也疯狂",
+            "img": "//mhdgu.1391.com/bookcenter/coverimages/218739/2088276_5e20503262f14c4ab0a0166ea3c9cbdb.jpg",
+            "bigbook_author": "星漫文化",
+            "Popularity": "2122.81万"
+        }
+    ]
+]
