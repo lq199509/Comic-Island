@@ -14,7 +14,12 @@
       @click="changeType(item)">
       {{item.name}}</div>
 		</div>
+
+    <transition
+    enter-active-class="animated fadeInLeft"
+    leave-active-class="animated fadeOutRight">
     <router-view></router-view>
+    </transition>
     </div>
 </template>
 
@@ -157,7 +162,4 @@ export default {
 .header-type .item.active {
   color: #e7370c;
 }
-/* .header-type div:first-child {
-  color: #e7370c;
-} */
 </style>
