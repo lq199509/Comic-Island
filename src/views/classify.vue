@@ -15,11 +15,13 @@
       {{item.name}}</div>
 		</div>
     <router-view></router-view>
+    <gototop></gototop>
     </div>
 </template>
 
 
 <script>
+import gototop from "../components/goToTop";
 export default {
   data() {
     return {
@@ -39,6 +41,9 @@ export default {
       this.curType = item.id;
       this.$router.push(item.href);
     }
+  },
+  components: {
+    gototop
   }
 };
 </script>
@@ -76,7 +81,6 @@ export default {
   -webkit-box-align: center;
   -webkit-align-items: center;
   align-items: center;
-  width: 10rem;
   height: 1.2rem;
   margin: 0 auto;
   background-color: #fff;

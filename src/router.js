@@ -1,10 +1,19 @@
-import Vue from 'vue';
-import VueRouter from 'vue-router';
+import Vue from 'vue'
+import VueRouter from 'vue-router'
 
-Vue.use(VueRouter);
+Vue.use(VueRouter)
 
-const router = new VueRouter({
+export default new VueRouter({
     routes: [
+        { path: '/', component: () => import('./views/home.vue') },
+        { path: '/logins', component: () => import('./views/logins.vue') },
+        { path: '/register', component: () => import('./views/register.vue') },
+        { path: '/login', component: () => import('./views/login.vue') },
+        { path: '/search', component: () => import('./views/search.vue') },
+        { path: '/history', component: () => import('./views/history.vue') },
+        { path: '/shoucang', component: () => import('./views/shoucang.vue') },
+        { path: '/about', component: () => import('./views/about.vue') },
+        { path: '/coupleback', component: () => import('./views/coupleback.vue') },
         {
             path: '/classify',
             component: () => import('./views/classify.vue'),
@@ -16,6 +25,7 @@ const router = new VueRouter({
                 { path: 'suspense', component: () => import('./components/suspense.vue') },
                 { path: 'son', component: () => import('./components/son.vue') },
                 { path: '', redirect: '/classify/warmBlood' }
+
             ]
         },
         {
@@ -30,8 +40,8 @@ const router = new VueRouter({
                 { path: 'admission', component: () => import('./componentsTwo/admission.vue') },
                 { path: '', redirect: '/ranking/hotSearch' }
             ]
-        }
+        },
+        { path: '/vip', component: () => import('./views/vip.vue') }
+
     ]
 })
-
-export default router;

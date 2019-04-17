@@ -1,0 +1,135 @@
+[v-cloak] {
+  display: none
+}
+
+.font-14 {
+  font-size: .18666667rem
+}
+
+.font-16 {
+  font-size: .21333333rem
+}
+
+.font-18 {
+  font-size: .24rem
+}
+
+.font-20 {
+  font-size: .26666667rem
+}
+
+.font-22 {
+  font-size: .29333333rem
+}
+
+.font-24 {
+  font-size: .32rem
+}
+
+.font-26 {
+  font-size: .34666667rem
+}
+
+.font-28 {
+  font-size: .37333333rem
+}
+
+.font-30 {
+  font-size: .4rem
+}
+
+.font-32 {
+  font-size: .42666667rem
+}
+
+.font-34 {
+  font-size: .45333333rem
+}
+
+.font-36 {
+  font-size: .48rem
+}
+
+.font-38 {
+  font-size: .50666667rem
+}
+
+.font-40 {
+  font-size: .53333333rem
+}
+
+.font-42 {
+  font-size: .56rem
+}
+
+.font-44 {
+  font-size: .58666667rem
+}
+
+.font-46 {
+  font-size: .61333333rem
+}
+
+.font-48 {
+  font-size: .64rem
+}
+
+.font-50 {
+  font-size: .66666667rem
+}
+
+.font-52 {
+  font-size: .69333333rem
+}
+
+.font-54 {
+  font-size: .72rem
+}
+
+.font-56 {
+  font-size: .74666667rem
+}
+
+.font-58 {
+  font-size: .77333333rem
+}
+
+.font-60 {
+  font-size: .8rem
+}
+
+a:active,a:hover,a:link,a:visited {
+  outline: none;
+  text-decoration: none;
+  color: #333
+}
+
+* {
+  cursor: default
+}
+
+::-webkit-scrollbar {
+  display: none
+}
+
+body,html {
+  min-height: 100%;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased
+}
+body,html {
+  background-color: #f4f4f4
+}
+
+@media (orientation: landscape) and (max-width:736px) {
+  .header-normal,.mine-info,.mine-login,.mine-logout,.mine-menu {
+      width:100%!important
+  }
+
+  .mine-logout {
+      width: 90%!important;
+      margin: .53333333rem auto;
+      position: relative;
+      bottom: 0
+  }
+}

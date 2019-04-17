@@ -1,46 +1,58 @@
 <template>
-    <div>	
-		<header class="header-normal">
+    <div>
+        <header class="header-normal">
 			<div class="header-back"></div>
-			<span class="header-title font-32">排行榜</span>
+			<span class="header-title font-32">VIP专区</span>
 			<div class="header-search"></div>
 		</header>
 
-    	<div class="header-type">
-			<div class="item"
-      v-for="item in classifyType"
-      :key="item.id"
-      :class="{active:curType === item.id}"
-      @click="changeType(item)">
-      {{item.name}}</div>
-		</div>
-    <router-view></router-view>
+        <div>
+        		<section class="classify-list">
+			<div class="list-item"
+            v-for="item in warmList"
+            :key="item.id">
+				<div class="item-pic"><img :src="item.img"></div>
+				<div class="item-info">
+					<div class="info-book font-30">{{item.name}}</div>
+					<div class="info-author font-26">作者：{{item.bigbook_author}}</div>
+					<div class="info-fans font-26">人气：{{item.Popularity}}</div>
+				</div>
+			</div>
+		</section>
+    </div>
     <gototop></gototop>
     </div>
 </template>
 
-
 <script>
 import gototop from "../components/goToTop";
+import Axios from "axios";
 export default {
   data() {
     return {
-      classifyType: [
-        { id: "hotSearch", name: "热搜榜", href: "/ranking/hotSearch" },
-        { id: "popularity", name: "人气榜", href: "/ranking/popularity" },
-        { id: "bestSeller", name: "畅销榜", href: "/ranking/bestSeller" },
-        { id: "book", name: "新书榜", href: "/ranking/book" },
-        { id: "end", name: "完结榜", href: "/ranking/end" },
-        { id: "admission", name: "免费榜", href: "/ranking/admission" }
-      ],
-      curType: this.$route.path.substring(9)
+      warmList: [],
+      pageNum: 1,
+      pageSize: 20
     };
   },
+
   methods: {
-    changeType(item) {
-      this.curType = item.id;
-      this.$router.push(item.href);
+    getList() {
+      Axios.get("../../json/vip.json", {
+        params: {
+          pageNum: this.pageNum,
+          pageSize: this.pageSize
+        }
+      }).then(res => {
+        var data = res.data;
+        this.warmList = data;
+        //console.log(warmList);
+      });
     }
+  },
+
+  created() {
+    this.getList();
   },
   components: {
     gototop
@@ -48,8 +60,10 @@ export default {
 };
 </script>
 
+
 <style>
 @import "../styles/index.css";
+@import "../styles/classify.css";
 .go-top {
   width: 1.2rem;
   height: 1.2rem;
@@ -138,30 +152,4 @@ export default {
     width: 100% !important;
   }
 }
-
-.header-type {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-  width: 10rem;
-  margin: 0 auto;
-  padding: 0.26666667rem 0;
-  border-bottom: 1px solid #dbd9dc;
-}
-
-.header-type .item {
-  width: 20%;
-  font-size: 0.37333333rem;
-  line-height: 0.66666667rem;
-  text-align: center;
-}
-
-.header-type .item.active {
-  color: #e7370c;
-}
-/* .header-type div:first-child {
-  color: #e7370c;
-} */
 </style>
