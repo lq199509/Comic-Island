@@ -1,10 +1,8 @@
 <template>
   <section class="swiper-container billboards swiper-container-horizontal swiper-container-ios">
     <div class="swiper-wrapper">
-      <div class="swiper-slide"
-        v-for="item in banners"
-        :key="item.id"  style="750px">
-        <img :src="item.imageurl" alt="">
+      <div class="swiper-slide" v-for="item in banners" :key="item.id" style="750px">
+        <img :src="item.imageurl" alt>
       </div>
     </div>
     <div class="swiper-pagination"></div>
@@ -29,8 +27,8 @@ export default {
     if (!this.swiper) {
       this.swiper = new Swiper('.swiper-container', {
         loop: true, // 无缝轮播
-        autoplay: 1000,
-        initialSlide: 0,
+        autoplay: true,
+        initialSlide: 1,
         autoplayDisableOnInteraction: false,
         pagination: {
           el: '.swiper-pagination'
@@ -43,11 +41,8 @@ export default {
 
 <style lang="less">
 .swiper-container {
-  width: 22rem !important;
-
-  .swiper-wrapper{
-    height: 11rem;
-  }
+  height: 4.8rem;
+  width: 10rem;
 
   img {
     width: 100%;
@@ -61,9 +56,5 @@ export default {
   .swiper-pagination-bullet-active {
     background: red;
   }
-  .swiper-wrapper .swiper-slide {
-    height: 11rem !important
-  }
 }
-
 </style>

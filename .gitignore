@@ -1,6 +1,7 @@
 .DS_Store
 node_modules
 /dist
+beizhu.md
 
 # local env files
 .env.local
